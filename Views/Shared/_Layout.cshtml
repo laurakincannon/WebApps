@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WDLMassage</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        .input-validation-error 
+        {
+            border: 1px solid red;
+            background-color: rgb(255, 238, 238);
+        }
+        body {
+            background-image: url('https://i.imgur.com/S08eXOp.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (Context.User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Index">My Account</a>
+                            </li>
+                        }
+                        @if (Context.User.IsInRole("Client"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Appointments" asp-action="Index">My appointments</a>
+                            </li>
+                        }
+                        @if (Context.User.IsInRole("Client"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="StaffInfo">Our Staff</a>
+                            </li>
+                        }
+                        @if (Context.User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ApptsManager" asp-action="Index">Appointment Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="StaffManager" asp-action="Index">Staff Manager</a>
+                            </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Terms and Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                            @if (!Context.User.Identity.IsAuthenticated)
+                            {
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login or Register</a>
+                            }
+                            else
+                            {
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+                            }
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @if (TempData["message"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["message"]
+                </div>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; WDL Massage - <a asp-area="" asp-controller="Home" asp-action="Privacy">Terms and Conditions</a> - Developed by Laura KinCannon and Olesya Tishkina - <a href="https://www.colostate.edu/" target="_blank">Colorado State University</a> - Fort Collins, CO -  May, 2020
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

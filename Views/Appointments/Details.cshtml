@@ -1,0 +1,70 @@
+﻿@model WDLMassage.Models.Appointment
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+@if (ViewData["failure"] != null)
+{
+    <div class="alert alert-danger">
+        @ViewData["failure"]
+    </div>
+}
+
+<h1>Your intake details for Appointment @Html.DisplayFor(model => model.Date)</h1>
+
+<div>
+    <h4>Appointment</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Duration)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Duration)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FkclientNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkclientNavigation.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FkmassageNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkmassageNavigation.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FkstaffNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkstaffNavigation.Email)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="AppointmentPk" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> 
+        <br />
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

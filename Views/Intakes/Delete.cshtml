@@ -1,0 +1,70 @@
+﻿@model WDLMassage.Models.Intake
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Your Intake Responses</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+
+        <dt class="col-sm-2">
+            Appointment Date:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkappointmentNavigation.FormattedDate)
+        </dd>
+
+        <dt class="col-sm-2">
+            Appointment Time:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkappointmentNavigation.FormattedTime)
+        </dd>
+
+        <dt class="col-sm-2">
+            Appointment Duration:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkappointmentNavigation.Duration) minutes
+        </dd>
+        <dt class="col-sm-2">
+            Are you feeling well?
+        </dt>
+        <dd class="col-sm-10">
+            Yes
+        </dd>
+        <dt class="col-sm-2">
+            Recent Surgeries:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Surgeries)
+        </dd>
+        <dt class="col-sm-2">
+            Current Medications:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Medications)
+        </dd>
+        <dt class="col-sm-2">
+            Listed Sensitivities:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Sensitives)
+        </dd>
+        <dt class="col-sm-2">
+            Requested Focus Areas:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FocusAreas)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IntakePk" />
+        <input type="submit" value="Delete Intake Form" class="btn btn-danger" /> |
+        <a asp-action="Index">Cancel/Return to Appointments</a>
+    </form>
+</div>

@@ -1,0 +1,74 @@
+﻿@model WDLMassage.Models.Appointment
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Appointment Details</h1>
+
+<div>   
+    <hr />       
+    <dl class="row">
+        <dt class="col-sm-2">
+            Massage Type:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkmassageNavigation.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Date:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FormattedDate)
+        </dd>
+        <dt class="col-sm-2">
+            Time:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FormattedTime)
+        </dd>
+        <dt class="col-sm-2">
+            Length:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Duration) minutes
+        </dd>
+        <dt class="col-sm-2">
+            Price:
+        </dt>
+        <dd class="col-sm-10">
+            $@Html.DisplayFor(model => model.Price)
+        </dd>
+        @*<dt class="col-sm-2">
+        Registered Client:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkclientNavigation.NameFirst) @Html.DisplayFor(model => model.FkclientNavigation.NameLast)
+        </dd>*@
+        <dt class="col-sm-2">
+            Provider:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkstaffNavigation.NameFirst) @Html.DisplayFor(model => model.FkstaffNavigation.NameLast)
+        </dd>
+        <dt class="col-sm-2">
+            Description:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkmassageNavigation.Description)
+        </dd>
+        <dt class="col-sm-2">
+              
+        </dt>
+        <dd>
+            <img src="~/img/@Html.DisplayFor(model => model.FkmassageNavigation.Imagename)" style="padding-left: 15px" height="100" width="100" alt="@Html.DisplayFor(model => model.FkmassageNavigation.Imagename)" />
+        </dd>
+    </dl>
+</div>
+<div>
+ 
+           <a asp-action="Edit" class="btn btn-sm btn-warning" asp-route-id="@Model.AppointmentPk">Book Now</a>
+</div>
+<div style="padding-top: 15px">
+    <a asp-action="Index">Back to All Appointments</a>
+</div>

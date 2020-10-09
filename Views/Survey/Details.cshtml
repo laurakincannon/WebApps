@@ -1,0 +1,72 @@
+﻿@model WDLMassage.Models.Outtake
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Your appointment survey</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Appt Date:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkappointmentNavigation.FormattedDate)
+        </dd>
+        <dt class="col-sm-2">
+            Appt Time:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkappointmentNavigation.FormattedTime)
+        </dd>
+        <dt class="col-sm-2">
+            Duration:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkappointmentNavigation.Duration) minutes
+        </dd>
+        <dt class="col-sm-2">
+            Provider:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkstaffNavigation.NameFull)
+        </dd>
+        <dt class="col-sm-2">
+            Professional Score:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RatingProfessional) (@Html.DisplayFor(model => model.ProfessionalScore))
+        </dd>
+        <dt class="col-sm-2">
+            Needs Score:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RatingAddressedNeeds) (@Html.DisplayFor(model => model.NeedsScore))
+        </dd>
+        <dt class="col-sm-2">
+            Quality Score:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RatingMassageQuality) (@Html.DisplayFor(model => model.QualityScore))
+        </dd>
+        <dt class="col-sm-2">
+            Overall Score:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TotalScore) (@Html.DisplayFor(model => model.OverallScore))
+        </dd>
+        <dt class="col-sm-2">
+            Comments:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Comments)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Delete" asp-route-id="@Model.SurveyPk" class="btn btn-danger btn-sm">Delete</a> 
+    <br />
+    <a asp-action="Index" asp-controller="Appointments">Return to Appointments</a>
+</div>

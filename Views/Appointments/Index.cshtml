@@ -1,0 +1,145 @@
+﻿@model IEnumerable<WDLMassage.Models.Appointment>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@if (TempData["success"] != null)
+{
+    <div class="alert alert-success">@TempData["success"]</div>
+}
+else if (TempData["failure"] != null)
+{
+    <div class="alert alert-warning">@TempData["failure"]</div>
+}
+
+@if (Model.Any())
+{
+    <h1> Past and upcoming appointments for @Context.User.Identity.Name </h1>
+
+    <table class="table table-sm table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    Provider
+                </th>
+                <th>
+                    Date
+                </th>
+                <th>
+                    Time
+                </th>
+                <th>
+                    Duration
+                </th>
+                <th>
+                    Massage Type
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                    Intake*
+                </th>
+                <th>
+                    Survey**
+                </th>
+                <th>
+                    Cancel***
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FkstaffNavigation.NameFull)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FormattedDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FormattedTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Duration) minutes
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FkmassageNavigation.Name)
+                    </td>
+                    <td>
+                        $@Html.DisplayFor(modelItem => item.Price)
+                    </td>
+
+                    <td>
+                        @if (item.Fkintake.HasValue)//if intake form completed, user can view or delete
+                        {
+                            @if(item.Date < DateTime.Today)
+                            {
+                                <a asp-action="Details" asp-controller="Intakes" asp-route-id="@item.Fkintake">View</a>
+                            }
+                            else
+                            {
+                                <a asp-action="Details" asp-controller="Intakes" asp-route-id="@item.Fkintake">View/Delete</a>
+                            }                            
+                        }
+                        else if (item.Date.AddDays(-1) < DateTime.Now && item.Date > DateTime.Now)//user should only be able to complete intake survey within 24 hours before appointment
+                        {
+                            <a asp-action="Create" asp-controller="Intakes" asp-route-id="@item.AppointmentPk">Complete</a>
+                        }
+                        else if (item.Date < DateTime.Now)//appointment passed & never did intake form
+                        {
+                            <p>not completed</p>
+                        }
+                        else
+                        {
+                            <p>not available</p>//appointment too far away to complete
+                        }
+                    </td>
+                    <td>
+                        @if (item.Fkouttake.HasValue)//if outtake survey completed, user can view or delete
+                        {
+                            <a asp-action="Details" asp-controller="Survey" asp-route-id="@item.Fkouttake">View/Delete</a>
+                        }
+                        else if (item.Date.AddDays(1) < DateTime.Now)
+
+                            //else if (item.Date.AddHours(1) < DateTime.Now)//outtake survey can be available one after appointment starts so can be completed soon after their appointment
+                        {
+                            <a asp-action="Create" asp-controller="Survey" asp-route-id="@item.AppointmentPk">Complete</a>
+                        }
+                        else
+                        {
+                            <p>not available</p>
+                        }
+                    </td>
+                    <td>
+                        @if (item.Date > DateTime.Now.AddDays(2))
+                        {
+                            @*<form asp-action="Delete">
+                                    <input type="hidden" asp-for="@item.AppointmentPk" />
+                                    <input type="submit" value="Cancel" class="btn btn-danger" />
+                                </form>*@
+                            <a asp-action="Edit" class="btn btn-danger btn-sm" asp-route-id="@item.AppointmentPk">Cancel</a>
+                        }
+                        else
+                        {
+                            <p>Cannot cancel</p>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div>
+        <p>
+            *The link to complete your intake form will appear 24 hours before your appointment. <br />
+            **Your Post-Massage Survey can be filled out only once and cannot be modified. <br />
+            ***Our cancellation policy is 48 hours prior to the appoinment. The link won't be active if the appoinment is less than 48 hours out. <br />
+        </p>
+    </div>
+}
+else
+{
+    <h1>No appointments for @Context.User.Identity.Name</h1>
+
+}

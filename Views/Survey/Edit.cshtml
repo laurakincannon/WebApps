@@ -1,0 +1,74 @@
+﻿@model WDLMassage.Models.Outtake
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Outtake</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SurveyPk" />
+            <div class="form-group">
+                <label asp-for="RatingProfessional" class="control-label"></label>
+                <input asp-for="RatingProfessional" class="form-control" />
+                <span asp-validation-for="RatingProfessional" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RatingAddressedNeeds" class="control-label"></label>
+                <input asp-for="RatingAddressedNeeds" class="form-control" />
+                <span asp-validation-for="RatingAddressedNeeds" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RatingMassageQuality" class="control-label"></label>
+                <input asp-for="RatingMassageQuality" class="form-control" />
+                <span asp-validation-for="RatingMassageQuality" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalScore" class="control-label"></label>
+                <input asp-for="TotalScore" class="form-control" />
+                <span asp-validation-for="TotalScore" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Comments" class="control-label"></label>
+                <input asp-for="Comments" class="form-control" />
+                <span asp-validation-for="Comments" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsComplete" /> @Html.DisplayNameFor(model => model.IsComplete)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fkappointment" class="control-label"></label>
+                <select asp-for="Fkappointment" class="form-control" asp-items="ViewBag.Fkappointment"></select>
+                <span asp-validation-for="Fkappointment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fkstaff" class="control-label"></label>
+                <select asp-for="Fkstaff" class="form-control" asp-items="ViewBag.Fkstaff"></select>
+                <span asp-validation-for="Fkstaff" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fkclient" class="control-label"></label>
+                <select asp-for="Fkclient" class="form-control" asp-items="ViewBag.Fkclient"></select>
+                <span asp-validation-for="Fkclient" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

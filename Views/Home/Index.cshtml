@@ -1,0 +1,102 @@
+﻿@model IEnumerable<WDLMassage.Models.Appointment>
+
+@if (TempData["success"] != null)
+{
+    <div class="alert alert-success">@TempData["success"]</div>
+}
+else if (TempData["failure"] != null)
+{
+    <div class="alert alert-warning">@TempData["failure"]</div>
+}
+<div class="text-center">
+    <h1 class="display-4">Search and Register for a Massage</h1>
+</div>
+
+@if (ViewData["message"] != null)
+{
+    <div class="alert alert-danger">@ViewData["message"]</div>
+}
+<p>
+    @*<a asp-action="Create">Add New Appointment</a>*@
+</p>
+
+<form asp-action="Index" method="get" class="form-inline d-flex justify-content-center md-form form-sm mt-0">
+    <p class="mr-3">
+        Search by:
+    </p>
+    <p>
+        <select name="massageType" class="input-group-sm form-control form-control-sm mr-3" asp-items="ViewBag.TypeFilter"></select>
+
+        @*<input input class="form-control form-control-sm mr-3" type="text" placeholder="Massage Type"
+            name="searchName" value="@ViewData["NameFilter"]" />*@
+    </p>
+    <p>
+        <select name="provider" class="input-group-sm form-control form-control-sm mr-3" asp-items="ViewBag.ProviderFilter"></select>
+
+        @*<input class="form-control form-control-sm mr-3" type="text" placeholder="Provider" name="provider" value="@ViewData["ProviderFilter"]" />*@
+    </p>
+    <p>
+        Date  <input class="form-control form-control-sm mr-3" type="date" name="appointmentDate" value="@ViewData["DateFilter"]" />
+    </p>
+    <p>
+        <input type="submit" value="Search" class="btn btn-secondary btn-sm mr-3" />
+
+        <a asp-action="Index">Reset</a>
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Massage Type
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Time
+            </th>
+            <th>
+                Duration
+            </th>
+            <th>
+                Price
+            </th>
+
+            <th>
+                Provider
+            </th>
+            <th>
+                Book
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.AppointmentPk">@item.FkmassageNavigation.Name</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FormattedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FormattedTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Duration) Minutes
+                </td>
+                <td>
+                    $@Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FkstaffNavigation.NameFull)
+                </td>
+                <td>
+                    <a asp-action="Details" class="btn btn-sm btn-warning" asp-route-id="@item.AppointmentPk">Book Now</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

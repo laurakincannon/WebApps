@@ -1,0 +1,74 @@
+﻿@model IEnumerable<WDLMassage.Models.User>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Staff List</h1>
+
+@if (ViewData["message"] != null)
+{
+    <div class="alert alert-danger">@ViewData["message"]</div>
+}
+@if (TempData["success"] != null)
+{
+    <div class="alert alert-success">@TempData["success"]</div>
+}
+<p>
+    <a asp-action="Create">Add new Staff Member</a>
+</p>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Email Address
+            </th>
+            <th>
+                Phone Number
+            </th>
+            <th>
+                Username
+            </th>
+            <th>
+                Status
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NameFull)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FormattedPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Username)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ActiveStatus)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.UserPk">Details</a> |
+                    @if (item.IsActive == true)
+                    {
+                        <a asp-action="Deactivate" asp-route-id="@item.UserPk">Deactivate</a>
+                    }
+                    else
+                    {
+                        <a asp-action="Activate" asp-route-id="@item.UserPk">Activate</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

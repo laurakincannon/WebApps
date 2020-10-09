@@ -1,0 +1,63 @@
+﻿@model WDLMassage.Models.Appointment
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Appointment</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Massage Type:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkmassageNavigation.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Date:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FormattedDate)
+        </dd>
+        <dt class="col-sm-2">
+            Time:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FormattedTime)
+        </dd>
+        <dt class="col-sm-2">
+            Length:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Duration) minutes
+        </dd>
+        <dt class="col-sm-2">
+            Price:
+        </dt>
+        <dd class="col-sm-10">
+            $@Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class="col-sm-2">
+            Registered Client:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkclientNavigation.NameFirst) @Html.DisplayFor(model => model.FkclientNavigation.NameLast)
+        </dd>
+        <dt class="col-sm-2">
+            Assigned Staff:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FkstaffNavigation.NameFirst) @Html.DisplayFor(model => model.FkstaffNavigation.NameLast)
+        </dd>
+    </dl>
+</div>
+<div>
+    @if (Model.Date > DateTime.Today)
+    {
+        <a asp-action="Edit" asp-route-id="@Model.AppointmentPk">Edit</a><i> | </i> 
+    }
+      <a asp-action="Index">Back to All Appointments</a>
+</div>

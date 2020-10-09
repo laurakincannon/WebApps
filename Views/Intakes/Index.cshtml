@@ -1,0 +1,84 @@
+﻿@model IEnumerable<WDLMassage.Models.Intake>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FeelingWell)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Surgeries)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Medications)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sensitives)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FocusAreas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsComplete)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FkappointmentNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FkclientNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FkstaffNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FeelingWell)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Surgeries)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Medications)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sensitives)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FocusAreas)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsComplete)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FkappointmentNavigation.Duration)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FkclientNavigation.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FkstaffNavigation.Email)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IntakePk">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.IntakePk">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IntakePk">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

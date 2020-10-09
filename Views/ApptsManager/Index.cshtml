@@ -1,0 +1,84 @@
+﻿@model IEnumerable<WDLMassage.Models.Appointment>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Appointment Manager</h1>
+
+@if (ViewData["message"] != null)
+{
+    <div class="alert alert-danger">@ViewData["message"]</div>
+}
+<p>
+    <a asp-action="Create">Add New Appointment</a>
+</p>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                Massage Type
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Time
+            </th>
+            <th>
+                Duration
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Client
+            </th>
+            <th>
+                Staff
+            </th>
+            <th>
+                Manage
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FkmassageNavigation.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FormattedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FormattedTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duration) Minutes
+            </td>
+            <td>
+                $@Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FkclientNavigation.NameFull)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FkstaffNavigation.NameFull)
+            </td>
+            <td>
+                @if (item.Date > DateTime.Today)
+                {
+                    <a asp-action="Edit" asp-route-id="@item.AppointmentPk">Edit</a> <i>|</i>
+}
+                    <a asp-action="Details" asp-route-id="@item.AppointmentPk">Details</a>
+                @if (item.Date > DateTime.Today)
+                {
+                    <i>| </i><a asp-action="Delete" asp-route-id="@item.AppointmentPk">Delete</a>
+                }
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

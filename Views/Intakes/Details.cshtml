@@ -1,0 +1,67 @@
+﻿@model WDLMassage.Models.Intake
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+    <h1>Your Intake Responses</h1>
+
+    <div>
+        <hr />
+        <dl class="row" width="900px">
+            <dt class="col-sm-2">
+                Appt Date:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.FkappointmentNavigation.FormattedDate)
+            </dd>
+            <dt class="col-sm-2">
+                Appt Time:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.FkappointmentNavigation.FormattedTime)
+            </dd>
+            <dt class="col-sm-2">
+                Duration:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.FkappointmentNavigation.Duration) minutes
+            </dd>
+            <dt class="col-sm-2">
+                Feeling well?
+            </dt>
+            <dd class="col-sm-10">
+                Yes
+            </dd>
+            <dt class="col-sm-2">
+                Recent Surgeries:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Surgeries)
+            </dd>
+            <dt class="col-sm-2">
+                Current Meds:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Medications)
+            </dd>
+            <dt class="col-sm-2">
+                Sensitivities:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Sensitives)
+            </dd>
+            <dt class="col-sm-2">
+                Focus Areas:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.FocusAreas)
+            </dd>
+        </dl>
+        @if(Model.FkappointmentNavigation.Date > DateTime.Today)
+        {
+            <a asp-action="Delete" asp-route-id="@Model.IntakePk" class="btn btn-danger btn-sm">Delete</a>
+            <br />
+        }   
+        <a asp-action="Index" asp-controller="Appointments">Return to Appointments</a>
+    </div>

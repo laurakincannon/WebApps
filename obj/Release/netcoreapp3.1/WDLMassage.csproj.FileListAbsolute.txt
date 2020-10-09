@@ -1,0 +1,378 @@
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\appsettings.Development.json
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\appsettings.json
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\WDLMassage.exe
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\WDLMassage.deps.json
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\WDLMassage.runtimeconfig.json
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\WDLMassage.runtimeconfig.dev.json
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\WDLMassage.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\WDLMassage.pdb
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\WDLMassage.Views.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\WDLMassage.Views.pdb
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\SQLitePCLRaw.core.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\System.Text.Json.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+T:\public_html\ASP\WDLMassage\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.csprojAssemblyReference.cache
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\staticwebassets\WDLMassage.StaticWebAssets.Manifest.cache
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\staticwebassets\WDLMassage.StaticWebAssets.xml
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.MvcApplicationPartsAssemblyInfo.cache
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.RazorAssemblyInfo.cache
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.RazorAssemblyInfo.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.AssemblyInfoInputs.cache
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.AssemblyInfo.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.TagHelpers.input.cache
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.TagHelpers.output.cache
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.RazorCoreGenerate.cache
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Account\Edit.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Appointments\Delete.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Appointments\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Appointments\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\ApptsManager\Create.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\ApptsManager\Delete.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\ApptsManager\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\ApptsManager\Edit.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\ApptsManager\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Home\StaffInfo.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Intakes\Create.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Intakes\Delete.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Intakes\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Intakes\Edit.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Intakes\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\StaffManager\Activate.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\StaffManager\Create.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\StaffManager\Deactivate.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\StaffManager\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\StaffManager\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Survey\Create.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Survey\Delete.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Survey\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Survey\Edit.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\Survey\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.RazorTargetAssemblyInfo.cache
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.RazorTargetAssemblyInfo.cs
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.Views.pdb
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.csproj.CopyComplete
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.dll
+T:\public_html\ASP\WDLMassage\obj\Release\netcoreapp3.1\WDLMassage.pdb
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\appsettings.Development.json
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\appsettings.json
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\WDLMassage.exe
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\WDLMassage.deps.json
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\WDLMassage.runtimeconfig.json
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\WDLMassage.runtimeconfig.dev.json
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\WDLMassage.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\WDLMassage.pdb
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\WDLMassage.Views.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\WDLMassage.Views.pdb
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\SQLitePCLRaw.core.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\System.Text.Json.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+T:\public_html\ASP\WDLMassage - Copy\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.csprojAssemblyReference.cache
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\staticwebassets\WDLMassage.StaticWebAssets.Manifest.cache
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\staticwebassets\WDLMassage.StaticWebAssets.xml
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.MvcApplicationPartsAssemblyInfo.cache
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.RazorAssemblyInfo.cache
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.RazorAssemblyInfo.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.AssemblyInfoInputs.cache
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.AssemblyInfo.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.TagHelpers.input.cache
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.TagHelpers.output.cache
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.RazorCoreGenerate.cache
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Account\Edit.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Appointments\Delete.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Appointments\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Appointments\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\ApptsManager\Create.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\ApptsManager\Delete.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\ApptsManager\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\ApptsManager\Edit.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\ApptsManager\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Home\StaffInfo.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Intakes\Create.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Intakes\Delete.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Intakes\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Intakes\Edit.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Intakes\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\StaffManager\Activate.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\StaffManager\Create.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\StaffManager\Deactivate.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\StaffManager\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\StaffManager\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Survey\Create.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Survey\Delete.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Survey\Details.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Survey\Edit.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\Survey\Index.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.RazorTargetAssemblyInfo.cache
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.RazorTargetAssemblyInfo.cs
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.Views.pdb
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.csproj.CopyComplete
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.dll
+T:\public_html\ASP\WDLMassage - Copy\obj\Release\netcoreapp3.1\WDLMassage.pdb

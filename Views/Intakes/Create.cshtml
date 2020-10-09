@@ -1,0 +1,71 @@
+﻿@model WDLMassage.Models.Intake
+
+@{
+    ViewData["Title"] = "Intake Survey";
+}
+
+<h1>Intake Survey</h1>
+
+<h4>Please complete this survey to help us prepare for your massage.</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Fkappointment" />
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="FeelingWell" />Check here if you are feeling well today.
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Surgeries" class="control-label">Please list any recent surgeries.</label>
+                <textarea input asp-for="Surgeries" class="form-control" row="6" maxlength="49"></textarea>
+                <span asp-validation-for="Surgeries" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Medications" class="control-label">List any medications you are currently taking.</label>
+                <textarea input asp-for="Medications" class="form-control" row="6" maxlength="49"> </textarea>
+                <span asp-validation-for="Medications" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sensitives" class="control-label">List any areas where you are sensitive or would like your therapist to use light pressure.</label>
+                <textarea input asp-for="Sensitives" class="form-control" row="6" maxlength="49"></textarea>
+                <span asp-validation-for="Sensitives" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FocusAreas" class="control-label">List any areas where you would like your therapist to focus on.</label>
+                <textarea input asp-for="FocusAreas" class="form-control" row="6" maxlength="49"></textarea>
+                <span asp-validation-for="FocusAreas" class="text-danger"></span>
+            </div>
+            @*<div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" asp-for="IsComplete" /> @Html.DisplayNameFor(model => model.IsComplete)
+            </label>
+        </div>
+        <div class="form-group">
+            <label asp-for="Fkappointment" class="control-label"></label>
+            <select asp-for="Fkappointment" class ="form-control" asp-items="ViewBag.Fkappointment"></select>
+        </div>
+        <div class="form-group">
+            <label asp-for="Fkclient" class="control-label"></label>
+            <select asp-for="Fkclient" class ="form-control" asp-items="ViewBag.Fkclient"></select>
+        </div>
+        <div class="form-group">
+            <label asp-for="Fkstaff" class="control-label"></label>
+            <select asp-for="Fkstaff" class ="form-control" asp-items="ViewBag.Fkstaff"></select>
+        </div>*@
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" asp-controller="Appointments">Cancel</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

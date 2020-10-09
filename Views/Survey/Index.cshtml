@@ -1,0 +1,83 @@
+﻿@model IEnumerable<WDLMassage.Models.Outtake>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RatingProfessional)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RatingAddressedNeeds)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RatingMassageQuality)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalScore)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsComplete)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FkappointmentNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FkclientNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FkstaffNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RatingProfessional)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RatingAddressedNeeds)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RatingMassageQuality)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalScore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsComplete)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FkappointmentNavigation.Duration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FkclientNavigation.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FkstaffNavigation.Email)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SurveyPk">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SurveyPk">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SurveyPk">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

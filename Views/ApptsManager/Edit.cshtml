@@ -1,0 +1,62 @@
+﻿@model WDLMassage.Models.Appointment
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Appointment</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="AppointmentPk" />
+            <div class="form-group">
+                <label asp-for="Fkmassage" class="control-label">Massage Type</label>
+                <select asp-for="Fkmassage" class="form-control" asp-items="ViewBag.Fkmassage"></select>
+                <span asp-validation-for="Fkmassage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" type="date"/>
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time" class="control-label"></label>
+                <input asp-for="Time" class="form-control" type="time"/>
+                <span asp-validation-for="Time" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Duration" class="control-label">Duration (Minutes)</label>
+                <input asp-for="Duration" class="form-control" />
+                <span asp-validation-for="Duration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label">Price ($USD)</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fkclient" class="control-label">Registered Client</label>
+                <select asp-for="Fkclient" class="form-control" asp-items="ViewBag.Fkclient"></select>
+                <span asp-validation-for="Fkclient" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fkstaff" class="control-label">Assigned Staff</label>
+                <select asp-for="Fkstaff" class="form-control" asp-items="ViewBag.Fkstaff"></select>
+                <span asp-validation-for="Fkstaff" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Cancel</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
